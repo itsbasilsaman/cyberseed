@@ -719,6 +719,7 @@ textarea.w-input, textarea.w-select {
   margin-left: -10px;
   margin-right: -10px;
 }
+ 
 
 .w-row:before, .w-row:after {
   content: " ";
@@ -1941,8 +1942,7 @@ textarea.w-input, textarea.w-select {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 18px;
-  font-size: 24px;
+  font-size: 37px;
   display: none;
   position: relative;
 }
@@ -1951,10 +1951,10 @@ textarea.w-input, textarea.w-select {
   outline: 0;
 }
 
-.w-nav-button.w--open {
+/* .w-nav-button.w--open {
   color: #fff;
   background-color: #c8c8c8;
-}
+} */
 
 .w-nav[data-collapse="all"] .w-nav-menu {
   display: none;
@@ -2399,6 +2399,7 @@ figure {
   padding-right: 20px;
 }
 
+
 .navigation-bar {
   background-color: rgba(0, 0, 0, 0);
   padding-top: 20px;
@@ -2406,7 +2407,7 @@ figure {
 }
 
 .brand-logo {
-  width: 100px;
+  width: 150px;
   padding-left: 0;
 }
 
@@ -2432,7 +2433,7 @@ figure {
 }
 
 .navbar-link:hover, .navbar-link.w--current {
-  color: #601feb;
+  color: #4FC65A;
 }
 
 .topbar-contact-area {
@@ -2673,8 +2674,8 @@ figure {
 }
 
 .primary-button.service-green-hover:hover {
-  color: #222;
-  background-color: #9eff51;
+  color: #ffffff;
+  background-color:  #222;
 }
 
 .button-wrap {
@@ -2720,8 +2721,8 @@ figure {
 }
 
 .secondary-button:hover {
-  background-color: #601feb;
-  border-color: #601feb;
+  background-color: black;
+  border-color: black;
 }
 
 .button-section {
@@ -2813,6 +2814,7 @@ figure {
   color: #ddd;
   max-width: 345px;
   margin-bottom: 0;
+  font-size: 16px;
 }
 
 .footer-contact-wrap {
@@ -2820,10 +2822,8 @@ figure {
 }
 
 .footer-social-wrap {
-  background-color: #333;
-  border-radius: 20px;
-  margin-top: 50px;
-  padding: 25px 65px 20px 35px;
+ 
+  padding: 20px 65px 0px 35px;
 }
 
 .cta-title {
@@ -2979,7 +2979,7 @@ figure {
   color: rgba(221, 221, 221, .87);
   margin-bottom: 0;
   font-family: IBM Plex Sans, sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .footer-social-title {
@@ -3031,7 +3031,7 @@ figure {
 }
 
 .cta-with-footer {
-  background-color: #222;
+  background-color: #062A26;
 }
 
 .cta-form-wrap {
@@ -3128,15 +3128,15 @@ figure {
   height: 165px;
   display: flex;
   position: absolute;
-  top: 112px;
-  bottom: auto;
-  left: auto;
-  right: 262px;
+ 
+  /* bottom: auto;
+  left: auto; */
+  right: 489px;
 }
 
 .banner-image-wrap {
   z-index: 2;
-  max-width: 345px;
+  max-width: 575px;
   position: absolute;
   top: 10px;
   bottom: auto;
@@ -3193,7 +3193,12 @@ figure {
 
 .home-banner-section {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
+  background-color: #EDF4F2;
+    background-image: url(https://cosion.themeori.com/wp-content/uploads/2024/08/banner-one-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .home-banner-title {
@@ -3234,14 +3239,26 @@ figure {
   margin-right: auto;
   display: flex;
 }
+.slider-item {
+  color: white;
+  font-weight: 600;
+ 
+}
+.about-intro-point-text {
+  font-size: 16px;
+  color: #6A726F;
+}
 
 .client-logo-item {
-  grid-column-gap: 130px;
+  grid-column-gap: 70px;
   grid-row-gap: 130px;
   justify-content: space-around;
   align-items: center;
   padding-right: 130px;
   display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #4FC65A;
 }
 
 .client-logo {
@@ -3289,6 +3306,7 @@ figure {
   margin-bottom: 0;
   font-size: 36px;
   line-height: 1.1;
+  color: #062A26;
 }
 
 .section-title.white-text {
@@ -3521,14 +3539,18 @@ figure {
 }
 
 .home-service-section {
-  background-color: #fff;
+  background-color: #EDF4F2;
+    background-image: url(https://cosion.themeori.com/wp-content/uploads/2024/08/banner-one-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   padding-top: 130px;
   padding-bottom: 100px;
 }
 
 .secondary-large-button {
-  background-color: #222;
-  border: 1px solid #222;
+  background-color: #4FC65A;
+  border: 1px solid #4FC65A;
   border-radius: 35px;
   padding: 20px 40px;
   font-size: 18px;
@@ -3537,8 +3559,8 @@ figure {
 }
 
 .secondary-large-button:hover {
-  background-color: #601feb;
-  border-color: #601feb;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .service-cta-text {
@@ -3577,7 +3599,7 @@ figure {
 }
 
 .service-cta-card {
-  background-color: #222;
+  background-color: #062A26;
   border: 1px solid #e4e4e4;
   border-radius: 30px;
   flex-direction: column;
@@ -3629,7 +3651,7 @@ figure {
 }
 
 .choose-section {
-  background-color: #222;
+  background-color: #062A26;
   background-image: url("../662f8aadf3c026e1bee042d1_green%20vector%20bg.png");
   background-position: 0 0;
   background-size: cover;
@@ -3638,7 +3660,7 @@ figure {
 }
 
 .choose-count {
-  color: #9eff51;
+  color: #4FC65A;
   margin-bottom: 0;
   font-family: IBM Plex Sans, sans-serif;
   font-size: 44px;
@@ -3957,7 +3979,7 @@ figure {
 
 .discount-bg-wrap {
   z-index: -1;
-  background-color: #4FC65A;
+  background-color: #062A26;
   border-top-right-radius: 200px;
   border-bottom-right-radius: 200px;
   min-width: 120%;
@@ -4037,8 +4059,8 @@ figure {
 }
 
 .testimonial-left-arrow {
-  border: 1px solid #4FC65A;
-  background-color: #4FC65A;
+  border: 1px solid #062A26;
+  background-color: #062A26;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -4054,7 +4076,7 @@ figure {
 }
 
 .testimonial-left-arrow:hover {
-  color: var(--primary-color);
+  color: #062A26;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -4075,7 +4097,7 @@ figure {
 
 .testimonial-quote-wrap {
   z-index: 1;
-  background-color: #222;
+  background-color:#062A26;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -4092,7 +4114,7 @@ figure {
 }
 
 .testimonial-description {
-  color: #601feb;
+  color: #4FC65A;
   margin-bottom: 0;
 }
 
@@ -4147,8 +4169,8 @@ figure {
 
 .testimonial-right-arrow {
   z-index: 1;
-  border: 1px solid #4FC65A;
-  background-color: #4FC65A;
+  border: 1px solid #062A26;
+  background-color: #062A26;
   border-radius: 100%;
   width: 70px;
   height: 70px;
@@ -4162,7 +4184,7 @@ figure {
 }
 
 .testimonial-right-arrow:hover {
-  color: var(--primary-color);
+  color: #062A26;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -7764,10 +7786,16 @@ figure {
 .cta-image {
   width: 100%;
 }
+ .home-screen {
+  padding: 0px 10px;
+ }
 
 @media screen and (min-width: 1280px) {
   h1 {
     font-size: 56px;
+  }
+  .home-screen {
+    padding: 0px 80px;
   }
 
   h2 {
@@ -7799,7 +7827,7 @@ figure {
   }
 
   .brand-logo {
-    width: 110px;
+    width: 150px;
   }
 
   .navbar-icon {
@@ -7935,7 +7963,7 @@ figure {
   }
 
   .about-right-title {
-    font-size: 80px;
+    font-size: 71px;
   }
 
   .about-right-text-wrap {
@@ -8580,7 +8608,7 @@ figure {
   }
 
   .brand-logo {
-    width: 115px;
+    width: 150px;
   }
 
   .banner-title {
@@ -8613,7 +8641,7 @@ figure {
   }
 
   .banner-rotate-wrap {
-    top: 134px;
+    top: 277px;
   }
 
   .banner-image-wrap {
@@ -8626,6 +8654,7 @@ figure {
 
   .client-logo-wrap {
     width: 250%;
+    background-color: #4FC65A;
   }
 
   .client-logo {
@@ -8892,16 +8921,9 @@ figure {
     display: flex;
   }
 
-  .menu-button {
-    color: #fff;
-    background-color: #601feb;
-    border-radius: 10px;
-    padding: 15px;
-  }
+ 
 
-  .menu-button.w--open {
-    background-color: #222;
-  }
+ 
 
   .navbar-dropdown-toggle {
     grid-column-gap: 5px;
@@ -10770,6 +10792,7 @@ figure {
 
   .section-title {
     font-size: 30px;
+   
   }
 
   .about-left-image {
@@ -10992,7 +11015,7 @@ figure {
   }
 
   .discount-section {
-    background-color: #601feb;
+    background-color: #4FC65A;
     padding-top: 100px;
   }
 
@@ -12547,7 +12570,7 @@ figure {
     width: 130px;
     height: 130px;
     top: auto;
-    bottom: 0%;
+    bottom: -4%;
     left: 0%;
     right: auto;
   }
