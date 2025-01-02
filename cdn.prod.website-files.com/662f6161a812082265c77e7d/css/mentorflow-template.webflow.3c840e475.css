@@ -2778,7 +2778,7 @@ figure {
 
 .footer-link {
   color: #ddd;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -2798,7 +2798,7 @@ figure {
   grid-row-gap: 20px;
   flex-direction: column;
   align-items: stretch;
-  padding-top: 40px;
+  padding-top: 30px;
   display: flex;
 }
 
@@ -2836,12 +2836,12 @@ figure {
 
 .footer-widget-link {
   color: #ddd;
-  font-size: 17px;
+  font-size: 16px;
   text-decoration: none;
 }
 
 .footer-widget-link:hover {
-  color: #9eff51;
+  color: #ffffff;
 }
 
 .footer-content-area {
@@ -3001,7 +3001,7 @@ figure {
 .footer-text {
   color: #ddd;
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .footer-grid {
@@ -3050,7 +3050,7 @@ figure {
 
 .footer-title {
   color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: -5px;
   font-size: 20px;
   font-weight: 700;
 }
@@ -3138,7 +3138,7 @@ figure {
   z-index: 2;
   max-width: 575px;
   position: absolute;
-  top: 10px;
+  top: 0px;
   bottom: auto;
   left: auto;
   right: 0%;
@@ -4523,7 +4523,7 @@ figure {
 }
 
 .mission-icon-wrap {
-  background-color: #f7f7fc;
+ 
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -4533,7 +4533,7 @@ figure {
 }
 
 .mission-count {
-  color: #601feb;
+  color: #4FC65A;
   margin-bottom: 0;
   font-size: 42px;
   font-weight: 800;
@@ -4587,8 +4587,8 @@ figure {
 }
 
 .mission-client-text-wrap {
-  background-color: #601feb;
-  border: 5px solid #fff;
+  background-color: #4FC65A;
+  border: 5px solid #4FC65A;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -4794,13 +4794,14 @@ figure {
 }
 
 .history-section {
-  background-color: #601feb;
-  background-image: url("https://cdn.prod.website-files.com/662f6161a812082265c77e7d/66307301308115fcaff5f144_history bg vector.svg");
-  background-position: 0 0;
+  background-image: url(https://cosion.themeori.com/wp-content/uploads/2024/08/banner-one-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
   padding-top: 150px;
   padding-bottom: 150px;
+  background-color: #EDF4F2;
 }
 
 .history-button-wrap {
@@ -5210,7 +5211,7 @@ figure {
 }
 
 .contact-label-icon {
-  color: #601feb;
+  color:#4FC65A;
   text-decoration: none;
 }
 
@@ -5223,7 +5224,7 @@ figure {
 
 .contact-checkbox {
   border-width: 2px;
-  border-color: #601feb;
+  border-color: #062A26;
   border-radius: 3px;
   width: 20px;
   min-width: 20px;
@@ -5235,8 +5236,8 @@ figure {
 }
 
 .contact-checkbox.w--redirected-checked {
-  background-color: #601feb;
-  border-color: #601feb;
+  background-color: #062A26;
+  border-color: #062A26;
 }
 
 .contact-input-field {
@@ -5281,7 +5282,7 @@ figure {
 }
 
 .contact-checkbox-label {
-  color: #601feb;
+  color: #062A26;
   margin-bottom: 0;
   font-family: IBM Plex Sans, sans-serif;
   font-size: 20px;
@@ -5688,7 +5689,7 @@ figure {
 }
 
 .service-title:hover {
-  color: #601feb;
+  color: #062A26;
 }
 
 .service-link-wrap {
