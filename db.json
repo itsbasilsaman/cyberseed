@@ -1,0 +1,46 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Visual Chronicles: Crafted Art Photography",
+      "imageUrl": "../cdn.prod.website-files.com/663089c11301d11e93e4aa99/66586c511616a8f28abe00ae_blog-thumbnail-img-02.jpg",
+      "postLink": "blog-posts/visual-chronicles-crafted-art-photography.html",
+      "date": "June 4, 2024",
+      "category": "Marketing",
+      "categoryLink": "blog-categories/marketing.html",
+      "description": "A deep dive into art photography as a powerful marketing tool."
+    },
+    {
+      "id": 2,
+      "title": "The Art of Consulting: Transforming Business",
+      "imageUrl": "../cdn.prod.website-files.com/663089c11301d11e93e4aa99/665846e943691efc27197a24_blog-thumbnail-img-03.jpg",
+      "postLink": "blog-posts/the-art-of-consulting-transforming-business.html",
+      "date": "June 4, 2024",
+      "category": "Analytics",
+      "categoryLink": "blog-categories/analytics.html",
+      "description": "Consulting strategies for business transformation."
+    },
+    {
+      "id": 3,
+      "title": "Expert Perspectives: Consulting With Growth",
+      "imageUrl": "../cdn.prod.website-files.com/663089c11301d11e93e4aa99/6658470243691efc27198d14_blog-thumbnail-img-04.jpg",
+      "postLink": "blog-posts/expert-perspectives-consulting-with-growth.html",
+      "date": "June 4, 2024",
+      "category": "Marketing",
+      "categoryLink": "blog-categories/marketing.html",
+      "description": "Insights from leading experts on consulting for growth."
+    }
+  ],
+ "blogPosts": [
+    {
+      "title": "The Consulting Playbook: Tactics for Success",
+      "date": "June 4, 2024",
+      "category": "Marketing",
+      "imageUrl": "../cdn.prod.website-files.com/663089c11301d11e93e4aa99/665846c94d4ee5b748731a7a_blog-thumbnail-img-02.jpg",
+      "description": "Bring to the tables win-win survival strategies to ensure proactive domination.",
+      "link": "blog-posts/the-consulting-playbook-tactics-for-success.html",
+      "categoryLink": "blog-categories/marketing.html"
+    }
+  ]
+}
+
