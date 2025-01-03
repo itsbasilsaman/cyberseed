@@ -2929,22 +2929,9 @@ figure {
   background-color: #601feb;
 }
 
-.footer-icon-wrap {
-  background-color: #222;
-  border-radius: 100%;
-  justify-content: center;
-  align-items: center;
-  min-width: 50px;
-  max-width: 50px;
-  min-height: 50px;
-  max-height: 50px;
-  transition: background-color .2s;
-  display: flex;
-}
+ 
 
-.footer-icon-wrap:hover {
-  background-color: #601feb;
-}
+ 
 
 .footer-social-link-wrap {
   grid-column-gap: 10px;
@@ -5691,6 +5678,7 @@ figure {
 .service-title:hover {
   color: #062A26;
 }
+
 
 .service-link-wrap {
   grid-column-gap: 10px;
@@ -12484,12 +12472,7 @@ figure {
     font-size: 16px;
   }
 
-  .footer-icon-wrap {
-    min-width: 40px;
-    max-width: 40px;
-    min-height: 40px;
-    max-height: 40px;
-  }
+ 
 
   .footer-social-link-wrap {
     flex-wrap: wrap;
