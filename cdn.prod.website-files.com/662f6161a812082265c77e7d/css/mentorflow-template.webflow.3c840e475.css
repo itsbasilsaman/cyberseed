@@ -2172,6 +2172,8 @@ textarea.w-input, textarea.w-select {
   .w-layout-blockcontainer {
     max-width: 728px;
   }
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -7096,6 +7098,10 @@ figure {
   min-height: 45px;
   display: flex;
 }
+.badge-image {
+  width: 70px;
+ 
+}
 
 .banner-date-icon-dark {
   position: absolute;
@@ -7108,7 +7114,7 @@ figure {
   top: auto;
   bottom: 30px;
   left: auto;
-  right: 0%;
+  right: 2%;
 }
 
 .buy-template-badge {
@@ -10350,6 +10356,13 @@ figure {
     grid-column-gap: 40px;
     grid-row-gap: 40px;
   }
+  .more-template-badge {
+    right: 4%;
+  }
+  .badge-image {
+    width: 100px;
+   
+  }
 
   .splash-asset-grid {
     grid-template-columns: 1fr 1fr;
@@ -11822,6 +11835,7 @@ figure {
     padding-top: 100px;
     padding-bottom: 220px;
   }
+ 
 
   .feature-article-wrap {
     border-radius: 20px;
